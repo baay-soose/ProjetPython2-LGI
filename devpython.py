@@ -24,4 +24,3 @@ my_graph = nx.from_pandas_edgelist(dfr, 'src', 'dst', create_using = nx.Graph())
 #Affichage des villes dans un graphe
 nx.draw(my_graph, with_labels=True, edge_color='red', width=3, node_color='yellow',node_size=pop_list/600)
 plt.show()
-s
